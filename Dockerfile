@@ -44,6 +44,11 @@ COPY --from=builder /app/public ./public
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 
+# Две мультистедж сборки отличаются друго от друга выбранными к устнаовке в образ пакетами. 
+# D ,
+
+
+
 USER nextjs
 
 EXPOSE 3000
