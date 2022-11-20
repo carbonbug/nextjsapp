@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+
 export default function Home() {
+
+
   return (
     <div className={styles.container}>
       <Head>
@@ -14,10 +17,11 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next.js</a> on Docker!
         </h1>
 
+
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Get started by editing Here we go TEST_7
         </p>
+
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>

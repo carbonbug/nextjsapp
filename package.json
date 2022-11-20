@@ -5,6 +5,9 @@
     "build": "next build"
   },
   "dependencies": {
+    "chokidar": "^3.5.3",
+    "filewatcher": "^3.0.1",
+    "log-timestamp": "^0.3.0",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
