@@ -1,4 +1,7 @@
 {
+  "name": "Alexandr Sribny",
+  "description": "This project and files in it were created to pass the exam for devops vacansy I do attempt on",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
